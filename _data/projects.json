@@ -1,0 +1,36 @@
+{
+  "secret-tips": [
+    {
+      "url": "https://aaronjohn2.github.io",
+      "name": "secret 1 title",
+      "description": "secret 1..."
+    },
+    {
+      "url": "https://copymoji.kaisermann.me",
+      "name": "secret 2 title",
+      "description": "secret 2..."
+    },
+    {
+      "url": "https://copymoji.kaisermann.me",
+      "name": "secret 3 title",
+      "description": "secret 3..."
+    }
+  ],
+  "lessons": [
+    {
+      "url": "https://aaronjohn2.github.io",
+      "name": "lesson 1 title",
+      "description": "lesson 1..."
+    },
+    {
+      "url": "https://copymoji.kaisermann.me",
+      "name": "lesson 2 title",
+      "description": "lesson 2..."
+    },
+    {
+      "url": "https://copymoji.kaisermann.me",
+      "name": "lesson 3 title",
+      "description": "lesson 3..."
+    }
+  ]
+}
