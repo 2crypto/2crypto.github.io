@@ -1,0 +1,22 @@
+---
+permalink: playlists.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Aaron John's playlists</title>
+  <link href="https://2crypto.github.io/playlists.xml" rel="self"/>
+  <link href="https://2crypto.github.io"/>
+  <id>https://2crypto.github.io</id>
+  <author>
+    <name>Aaron John</name>
+    <email>aaron2nj@gmail.com</email>
+  </author>
+  {%- for playlist in playlists %}
+  <entry>
+    <title>{{ playlist.name }}</title>
+    <link href="{{ playlist.url }}"/>
+    <id>{{ playlist.url }}</id>
+  </entry>
+  {%- endfor %}
+</feed>
